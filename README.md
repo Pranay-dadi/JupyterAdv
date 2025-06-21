@@ -6,6 +6,11 @@ Install jupyter lab using conda install jupyterlab.\
 Make sure this are installed.\
 For all modules install necessary jupyter lab versions - 4.4.1
 
+# Contributions -
+JupyterAdv Part 1 and Part 3 - Pranay.D\
+JupyterAdv Part 2 - Neha and Mounika\
+UI and verification - Srivally\
+
 # JupyterAdv Part 1 -
  This gives advanced features part of JupyterAdv.\
  Generate Code, Explain Code, Performance Metrics, Predict Behavior, Error Detection and Bug detection are part of release 1.\
@@ -23,11 +28,16 @@ For all modules install necessary jupyter lab versions - 4.4.1
 
 # JupyterAdv Part 2 -
  This is part of release 2.\
- This gives the commenting feature part of JupyterAdv.\
+ This gives the commenting feature part of JupyterAdv in Windows.\
  Clone the repository to your local environment.\
- Change directory to the jupyterlab_apod directory.\
- Then pip install -e "."\
+ Change directory to the jupyterlab_com directory.\
+ Open terminal.\
+ Type Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass\
+ Type ts-node src/server.ts\
+ This assumes you're on Windows and have ts-node installed.\
+ Then jlpm build\
  Then jupyter labextension develop . --overwrite\
+ Once JupyterLab opens in your browser, your extension should be active by using jupyter lab\
  This installs the jupyter labextension.\
  Right sidebar has the comment feature.
 
@@ -53,4 +63,4 @@ For all modules install necessary jupyter lab versions - 4.4.1
  Enter git details in vcs.\
  Create local commits in vcs.\
  This are basic features implemented as part of github vcs and other parts are still under development.
- 
+
