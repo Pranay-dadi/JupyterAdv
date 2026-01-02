@@ -1,3 +1,6 @@
+#LINKS TO VIDEO DEMONSTRATIONS - https://drive.google.com/file/d/1ms6FY8FkE2duQY_uvjO8PcBLCsNpieR8/view?usp=sharing
+                               - https://drive.google.com/file/d/1G22cYW6__1gYyj63cWVHQkkJgJwSKCHK/view?usp=sharing
+
 JupyterAdv is spread into three modules.\
 Install each module at a time.\
 First create a conda environment.\
